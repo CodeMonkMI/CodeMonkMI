@@ -1,15 +1,15 @@
 <h1 align="center">Hi 👋, I'm Monirul Islam</h1>
 <h3 align="center">A passionate FullStack (MERN) developer from Bangladesh</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=monirulislam027&label=Profile%20views&color=0e75b6&style=flat" alt="monirulislam027" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=CodeMonkMI&label=Profile%20views&color=0e75b6&style=flat" alt="Monirul Islam" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=monirulislam027" alt="monirulislam027" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=CodeMonkMI" alt="Monirul Islam" /></a> </p>
 
 - 🔭 I’m currently working on [LiveAi](http://liveai.eu/)
 
 - 🌱 I’m currently learning **DevOps Engineering**
 
-- 📝 I regularly write articles on [https://dev.to/monirulislam027](https://dev.to/monirulislam027)
+- 📝 I regularly write articles on [https://dev.to/CodeMonkMI](https://dev.to/CodeMonkMI)
 
 - 💬 Ask me about **JavaScript, ReactJs, Nodejs, ExpressJs etc.**
 
