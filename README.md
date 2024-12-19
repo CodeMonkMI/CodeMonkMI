@@ -5,9 +5,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=CodeMonkMI" alt="Monirul Islam" /></a> </p>
 
-- 🔭 I’m currently working on [LiveAi](http://liveai.eu/)
+- 🔭 I’m currently working on [All Generation tech](https://allgentech.io/)
 
-- 🌱 I’m currently learning **DevOps Engineering**
+- 🌱 I’m currently studying **Software Architecture**
 
 - 📝 I regularly write articles on [https://dev.to/CodeMonkMI](https://dev.to/CodeMonkMI)
 
@@ -15,7 +15,7 @@
 
 - 📫 How to reach me **mmislam027@gmail.com**
 
-- ⚡ Fun fact **I think I am lazy**
+- ⚡ Fun fact **I too much am lazy**
 
 ### Blogs posts
 
