@@ -4,13 +4,15 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=CodeMonkMI&label=Profile%20views&color=0e75b6&style=flat" alt="Monirul Islam" /> </p>
 
 
-- 🔭 I’m currently working on [All Generation tech](https://allgentech.io/)
+- 🔭 I’m currently looking for a permanant remote job.
 
-- 🌱 I’m currently studying **Software Architecture**
+- 🌱 I’m currently studying **Software Engineering**
 
 - 📝 I regularly write articles on [https://dev.to/CodeMonkMI](https://dev.to/CodeMonkMI)
 
-- 💬 Ask me about **JavaScript, ReactJs, Nodejs, ExpressJs etc.**
+- 💬 Ask me about **ReactJs, NextJs, Redux, Zustand, TailwindCSS, Nodejs, ExpressJs, Prisma etc.**
+ 
+- 💬 I build a backend framework name [`prexres`](https://github.com/CodeMonkMI/prexress) with **NodeJs, ExpressJs, Prisma, **
 
 - 📫 How to reach me **mmislam027@gmail.com**
 
