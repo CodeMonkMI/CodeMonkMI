@@ -1,3 +1,4 @@
+import { v4 } from "uuid";
 export interface Project {
   id: number;
   title: string;
@@ -12,38 +13,55 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "RoktoChai",
-    description: "A blood donation platform connecting donors with recipients in emergency situations. Features real-time notifications, donor tracking, and appointment scheduling.",
+    description:
+      "A blood donation platform connecting donors with recipients in emergency situations. Features real-time notifications, donor tracking, and appointment scheduling.",
     image: "/placeholder.svg",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
+    technologies: ["React", "Node.js", "Express", "MongoDB"],
     githubLink: "https://github.com/monirulislam",
-    demoLink: "https://roktochai.demo.com"
   },
   {
     id: 2,
     title: "Department Orchestrator",
-    description: "A comprehensive department management system for educational institutions, handling course allocations, faculty scheduling, and resource management.",
+    description:
+      "A comprehensive department management system for educational institutions, handling course allocations, faculty scheduling, and resource management.",
     image: "/placeholder.svg",
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
-    githubLink: "https://github.com/monirulislam",
-    demoLink: "https://dept-orchestrator.demo.com"
+    technologies: [
+      "Next.js",
+      "ExpressJS",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Docker",
+      "prexress framework",
+    ],
+    githubLink: "https://github.com/CodeMonkMI/department-orchestrator",
   },
   {
     id: 3,
     title: "prexress Framework",
-    description: "A lightweight, modular framework built on Express.js, providing additional abstractions for rapid API development with standardized patterns.",
+    description:
+      "A lightweight, modular framework built on Express.js, providing additional abstractions for rapid API development with standardized patterns.",
     image: "/placeholder.svg",
-    technologies: ["Node.js", "Express", "TypeScript", "Jest", "Docker"],
-    githubLink: "https://github.com/monirulislam",
+    technologies: ["Node.js", "Express", "TypeScript", "Prisma", "OPP"],
+    githubLink: "https://github.com/CodeMonkMI/prexress",
   },
   {
     id: 4,
     title: "Event Management",
-    description: "A full-featured event management platform with ticketing, scheduling, attendee tracking, and analytics dashboards for event organizers.",
+    description:
+      "A full-featured event management platform with ticketing, scheduling, attendee tracking, and analytics dashboards for event organizers.",
     image: "/placeholder.svg",
-    technologies: ["React", "Redux", "Firebase", "Material-UI", "Stripe API"],
-    githubLink: "https://github.com/monirulislam",
-    demoLink: "https://event-mgmt.demo.com"
-  }
+    technologies: [
+      "React",
+      "Redux",
+      "Ant Design UI",
+      "Express",
+      "JWT",
+      "Squelize",
+    ],
+    githubLink: "https://github.com/CodeMonkMI/react-event-creator",
+  },
 ];
 
 export interface Experience {
@@ -55,43 +73,45 @@ export interface Experience {
   achievements: string[];
 }
 
+const DKAchievements = [
+  "Created applications using Next.js for server-side rendering and static site generation which reduced 80% page loading time.",
+  "Designed pixel perfect UI from figma design with 100% precision",
+  "Executed web performance optimization techniques to enhance loading speed. Reduce page speed from 5s to 2s.",
+  "Resolved critical bugs, improved functionality, reduced 20% of reported glitches and improved user experience.",
+];
+
 export const experiences: Experience[] = [
   {
     id: 1,
-    company: "Tech Innovators Ltd.",
-    position: "Senior Frontend Developer",
-    period: "Jan 2022 - Present",
-    description: "Leading the frontend development team in building robust and scalable web applications.",
-    achievements: [
-      "Redesigned the company's flagship product UI, improving user engagement by 40%",
-      "Implemented CI/CD pipelines, reducing deployment time by 60%",
-      "Mentored junior developers and established frontend code standards"
-    ]
+    company: "DK AI Labs",
+    position: "Software Developer - Fullstack",
+    period: "Feb 2025 - Present",
+    description:
+      "Develop and Integrated robust and scalable applications with modern technologies like React NodeJs etc",
+    achievements: [...DKAchievements],
   },
   {
     id: 2,
-    company: "Digital Solutions Inc.",
-    position: "Frontend Developer",
-    period: "Mar 2019 - Dec 2021",
-    description: "Developed and maintained multiple client projects using modern frontend technologies.",
+    company: "All Generation Tech - AGT",
+    position: "Software Engineer - Frontend (React)",
+    period: "Dec 2024 - March 2025",
+    description:
+      "Developed and maintained multiple client projects using react and related technologies.",
     achievements: [
-      "Built responsive web applications for 15+ clients using React and Next.js",
-      "Optimized application performance, reducing load times by 35%",
-      "Collaborated with design team to implement pixel-perfect UIs"
-    ]
+      "Developed single page applications for a seamless user experience.",
+      "Organized application files using component-based architecture for reusability and increased code readability",
+      "Implemented responsive design to ensure optimal user experience across devices",
+    ],
   },
   {
     id: 3,
-    company: "Web Crafters",
-    position: "Junior Developer",
-    period: "Jun 2017 - Feb 2019",
-    description: "Started as a junior developer working on frontend implementations and bug fixes.",
-    achievements: [
-      "Contributed to the development of 5 web applications",
-      "Assisted senior developers in code reviews and implementation",
-      "Learned and implemented best practices in frontend development"
-    ]
-  }
+    company: "DK AI Labs",
+    position: "Web Developer - Fullstack",
+    period: "Apr 2023 - Dec 2024",
+    description:
+      "Develop and Integrated robust and scalable web applications with modern technologies like React NodeJs etc",
+    achievements: [...DKAchievements],
+  },
 ];
 
 export interface Education {
@@ -105,18 +125,18 @@ export interface Education {
 export const education: Education[] = [
   {
     id: 1,
-    degree: "Master of Science in Computer Science",
-    institution: "University of Technology",
-    period: "2015 - 2017",
-    description: "Specialized in Software Engineering and Web Technologies"
+    degree: "Diploma In Engineering in Computer Science",
+    institution: "Jashore Polytechnic Institute",
+    period: "2022 - 2026",
+    description: "Specialized in Software Engineering and Web Technologies",
   },
   {
     id: 2,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "National University",
-    period: "2011 - 2015",
-    description: "Graduated with First Class Honors"
-  }
+    degree: "Higher Secondary School",
+    institution: "Under Jashore Board",
+    period: "2019-2022",
+    description: "Completed with a grade with A",
+  },
 ];
 
 export interface Certification {
@@ -129,65 +149,155 @@ export interface Certification {
 
 export const certifications: Certification[] = [
   {
-    id: 1,
-    title: "AWS Certified Developer - Associate",
-    issuer: "Amazon Web Services",
-    date: "Dec 2022",
-    credentialLink: "https://aws.certification.link"
-  },
-  {
     id: 2,
-    title: "Professional Frontend Developer",
-    issuer: "Meta",
-    date: "Aug 2021",
-    credentialLink: "https://meta.certification.link"
+    title: "Frontend Developer (React)",
+    issuer: "HackerRank",
+    date: "March, 2025",
+    credentialLink: "https://www.hackerrank.com/certificates/617e2b1f74fb",
   },
   {
     id: 3,
-    title: "JavaScript Algorithms and Data Structures",
-    issuer: "freeCodeCamp",
-    date: "Mar 2020",
-    credentialLink: "https://freecodecamp.certification.link"
-  }
+    title: "JavaScript (Basic)",
+    issuer: "HackerRank",
+    date: "March, 2025",
+    credentialLink: "https://www.hackerrank.com/certificates/d2e571b01a02",
+  },
+  {
+    id: 4,
+    title: "JavaScript (Intermediate)",
+    issuer: "HackerRank",
+    date: "March, 2025",
+    credentialLink: "https://www.hackerrank.com/certificates/9ea89219dff1",
+  },
+  {
+    id: 1,
+    title: "Think in a Redux way",
+    issuer: "Learn With Sumit",
+    date: "Sep 2022",
+    credentialLink:
+      "https://drive.google.com/file/d/1bNRD2GVFJfhDTSPgf9ieBFUijgrEHdWy/view",
+  },
 ];
 
 export interface Skill {
-  id: number;
+  id: number | string;
   name: string;
-  category: "Frontend" | "Backend" | "Database" | "Tools" | "Programming Languages" | "Design";
+  category:
+    | "Frontend"
+    | "Backend"
+    | "Database"
+    | "Tools"
+    | "Programming Languages"
+    | "Design";
   level: "Beginner" | "Intermediate" | "Advanced" | "Expert";
 }
 
 export const skills: Skill[] = [
   // Frontend
-  { id: 1, name: "React", category: "Frontend", level: "Expert" },
-  { id: 2, name: "Next.js", category: "Frontend", level: "Advanced" },
-  { id: 3, name: "TypeScript", category: "Frontend", level: "Advanced" },
-  { id: 4, name: "HTML/CSS", category: "Frontend", level: "Expert" },
-  { id: 5, name: "JavaScript", category: "Frontend", level: "Expert" },
-  { id: 6, name: "Redux", category: "Frontend", level: "Advanced" },
-  { id: 7, name: "Tailwind CSS", category: "Frontend", level: "Advanced" },
-  { id: 8, name: "Material UI", category: "Frontend", level: "Intermediate" },
-  
+  { id: v4(), name: "React", category: "Frontend", level: "Expert" },
+  { id: v4(), name: "Next.js", category: "Frontend", level: "Advanced" },
+  { id: v4(), name: "TypeScript", category: "Frontend", level: "Expert" },
+  { id: v4(), name: "JavaScript", category: "Frontend", level: "Expert" },
+  { id: v4(), name: "Tailwind CSS", category: "Frontend", level: "Expert" },
+  { id: v4(), name: "Material UI", category: "Frontend", level: "Advanced" },
+  { id: v4(), name: "Ant Design", category: "Frontend", level: "Advanced" },
+  {
+    id: v4(),
+    name: "React Hook Form",
+    category: "Frontend",
+    level: "Advanced",
+  },
+  { id: v4(), name: "Zod", category: "Frontend", level: "Advanced" },
+  { id: v4(), name: "Redux", category: "Frontend", level: "Expert" },
+  { id: v4(), name: "React Query", category: "Frontend", level: "Advanced" },
+  { id: v4(), name: "Zustand", category: "Frontend", level: "Advanced" },
+
   // Backend
-  { id: 9, name: "Node.js", category: "Backend", level: "Advanced" },
-  { id: 10, name: "Express", category: "Backend", level: "Advanced" },
-  { id: 11, name: "REST API", category: "Backend", level: "Advanced" },
-  { id: 12, name: "GraphQL", category: "Backend", level: "Intermediate" },
-  { id: 13, name: "Prisma", category: "Backend", level: "Intermediate" },
-  
-  // Database
-  { id: 14, name: "MongoDB", category: "Database", level: "Advanced" },
-  { id: 15, name: "PostgreSQL", category: "Database", level: "Intermediate" },
-  { id: 16, name: "MySQL", category: "Database", level: "Intermediate" },
-  { id: 17, name: "Firebase", category: "Database", level: "Intermediate" },
-  
-  // Tools
-  { id: 18, name: "Git", category: "Tools", level: "Advanced" },
-  { id: 19, name: "Docker", category: "Tools", level: "Intermediate" },
-  { id: 20, name: "CI/CD", category: "Tools", level: "Intermediate" },
-  { id: 21, name: "AWS", category: "Tools", level: "Intermediate" },
-  { id: 22, name: "Jest", category: "Tools", level: "Intermediate" },
-  { id: 23, name: "Webpack", category: "Tools", level: "Intermediate" },
-  { id: 24, name: "Figma", category: "Tools", level: "Intermediate" }
+  { id: v4(), name: "Node.js", category: "Backend", level: "Advanced" },
+  { id: v4(), name: "ExpressJs", category: "Backend", level: "Advanced" },
+  { id: v4(), name: "NestJs", category: "Backend", level: "Advanced" },
+  { id: v4(), name: "REST API", category: "Backend", level: "Advanced" },
+  { id: v4(), name: "Prisma", category: "Backend", level: "Intermediate" },
+  { id: v4(), name: "Mongoose", category: "Backend", level: "Intermediate" },
+  { id: v4(), name: "Drizzle", category: "Backend", level: "Intermediate" },
+  {
+    id: v4(),
+    name: "Authentication",
+    category: "Backend",
+    level: "Intermediate",
+  },
+  {
+    id: v4(),
+    name: "Authorization",
+    category: "Backend",
+    level: "Intermediate",
+  },
+  { id: v4(), name: "JWT", category: "Backend", level: "Intermediate" },
+  { id: v4(), name: "Zod", category: "Backend", level: "Intermediate" },
+  {
+    id: v4(),
+    name: "Express Validator",
+    category: "Backend",
+    level: "Intermediate",
+  },
+
+  // Datv4()ase
+  { id: v4(), name: "MongoDB", category: "Database", level: "Advanced" },
+  { id: v4(), name: "PostgreSQL", category: "Database", level: "Intermediate" },
+  { id: v4(), name: "MySQL", category: "Database", level: "Intermediate" },
+  { id: v4(), name: "Firebase", category: "Database", level: "Intermediate" },
+  {
+    id: v4(),
+    name: "Database Design",
+    category: "Database",
+    level: "Intermediate",
+  },
+  {
+    id: v4(),
+    name: "Database Management",
+    category: "Database",
+    level: "Intermediate",
+  },
+
+  // Toov4()
+  { id: v4(), name: "Git", category: "Tools", level: "Advanced" },
+  { id: v4(), name: "Docker", category: "Tools", level: "Intermediate" },
+  { id: v4(), name: "CI/CD", category: "Tools", level: "Intermediate" },
+  { id: v4(), name: "VPS", category: "Tools", level: "Intermediate" },
+  { id: v4(), name: "Jest", category: "Tools", level: "Intermediate" },
+  { id: v4(), name: "Webpack", category: "Tools", level: "Intermediate" },
+  { id: v4(), name: "Figma", category: "Tools", level: "Intermediate" },
+  { id: v4(), name: "Microservices", category: "Tools", level: "Intermediate" },
+  {
+    id: v4(),
+    name: "Event Driven Architecture",
+    category: "Tools",
+    level: "Intermediate",
+  },
+  {
+    id: v4(),
+    name: "Cloud",
+    category: "Tools",
+    level: "Intermediate",
+  },
+];
+
+// Sample achievements - in a real app, this would come from data/projects
+export const achievements = [
+  {
+    id: 1,
+    title: "Founded JPI Coder Club",
+    description:
+      "Founded JPI Coders Club and crated programming community. Purpose of this is to help each others. Also organize Programming Contest",
+    icon: "trophy",
+    year: "2023",
+  },
+  {
+    id: 2,
+    title: "Class Captain",
+    description:
+      "Main relations between 50+ students (classmates) and 10+ teachers. Also lead some valid protest to ensure student security and respect. ",
+    icon: "star",
+    year: "2022",
+  },
 ];
