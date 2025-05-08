@@ -37,7 +37,11 @@ export const BasicInfo = () => {
         <a href="#contact">
           <Button className="px-6">Contact Me</Button>
         </a>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://drive.google.com/drive/folders/1sUU4Usy-CrZW4mfyxWrvr6ilQlpkWyw6?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button variant="outline" className="px-6">
             Resume
           </Button>
@@ -49,7 +53,7 @@ export const BasicInfo = () => {
         style={{ animationDelay: "1.2s" }}
       >
         <a
-          href="https://github.com/monirulislam"
+          href="https://github.com/codemonkmi"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground/80 hover:text-primary transition-colors duration-200"
@@ -57,7 +61,7 @@ export const BasicInfo = () => {
           <Github size={24} />
         </a>
         <a
-          href="https://linkedin.com/in/monirulislam"
+          href="https://linkedin.com/in/codemonkmi"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground/80 hover:text-primary transition-colors duration-200"
@@ -65,7 +69,7 @@ export const BasicInfo = () => {
           <Linkedin size={24} />
         </a>
         <a
-          href="mailto:monirul@example.com"
+          href="mailto:mr.monirul.dev@gmail.com"
           className="text-foreground/80 hover:text-primary transition-colors duration-200"
         >
           <Mail size={24} />
