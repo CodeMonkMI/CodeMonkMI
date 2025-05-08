@@ -43,14 +43,16 @@ export const SkillsSection = () => {
 
         <div className="mt-12">
           <Tabs defaultValue={categories[0]} className="w-full">
-            <TabsList className="mb-6 flex flex-wrap justify-center gap-2">
+            <TabsList className="mb-6 flex justify-center sm:gap-2">
               {categories.map((category) => (
                 <TabsTrigger
                   key={category}
                   value={category}
-                  className="flex items-center gap-2 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+                  className="flex items-center gap-0 sm:gap-2 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
                 >
-                  {getCategoryIcon(category)}
+                  <span className="hidden sm:block">
+                    {getCategoryIcon(category)}
+                  </span>
                   {category}
                 </TabsTrigger>
               ))}
@@ -63,7 +65,7 @@ export const SkillsSection = () => {
                 className="space-y-4"
               >
                 <div className="bg-card rounded-xl p-8 shadow-lg border border-border">
-                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                     {skillsByCategory[category].map((skill) => (
                       <div
                         key={skill.id}

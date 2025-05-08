@@ -3,7 +3,7 @@ import Card, { CardProps } from "./Card";
 export const Cards = () => {
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 gap-6">
         {DATA.map((item) => (
           <Card
             description={item.description}

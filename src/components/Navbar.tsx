@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { MobileThemeToggle, ThemeToggle } from "./ThemeToggle";
+import { ThemeToggle } from "./ThemeToggle";
 import { Button } from "./ui/button";
 
 interface NavItem {
@@ -70,7 +70,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16 md:h-20">
           <a
             href="#home"
-            className="text-xl md:text-2xl font-bold text-primary"
+            className="text-xl block md:text-2xl font-bold text-primary"
           >
             Monirul<span className="text-foreground">Islam</span>
           </a>
@@ -100,8 +100,8 @@ const Navbar = () => {
           </nav>
 
           {/* Mobile Navigation Toggle */}
-          <div className="md:hidden flex items-center space-x-2">
-            <MobileThemeToggle />
+          <div className="md:hidden flex  space-x-2">
+            <ThemeToggle />
             <button
               className="text-foreground"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
