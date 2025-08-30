@@ -1,6 +1,6 @@
 import { v4 } from "uuid";
 export interface Project {
-  id: number;
+  id: number | string;
   title: string;
   description: string;
   image: string;
@@ -11,16 +11,73 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 1,
+    id: v4(),
+    title: "prexress",
+    description:
+      "A lightweight, modular framework built on Express.js, providing additional abstractions for rapid API development with standardized patterns.",
+    image: "/placeholder.svg",
+    technologies: ["Node.js", "Express", "TypeScript", "Prisma", "OPP"],
+    githubLink: "https://github.com/CodeMonkMI/prexress",
+  },
+  {
+    id: v4(),
+    title: "Todo Enterprise",
+    description:
+      "An enterprise level typeScript application built with Turborepo, featuring a clean architecture pattern and domain-driven design.",
+    image: "/placeholder.svg",
+    technologies: ["React", "ExpressJs", "Drizzle", "Domain Driven Design"],
+    githubLink: "https://github.com/CodeMonkMI/todo-app-enterprise",
+  },
+  {
+    id: v4(),
+    title: "Real AI",
+    description:
+      "A functional web application built with Server-Side Rendering (SSR) and Static Site Generation (SSG). I developed this site from a Figma design as the company’s landing page, showcasing their database and services.",
+    image: "/placeholder.svg",
+    technologies: [
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Strapi",
+      "Firebase",
+    ],
+    githubLink: "https://www.realai.eu/",
+  },
+  {
+    id: v4(),
+    title: "EarthScan",
+    description:
+      "Built an interactive landing page from Figma to production using Next.js. Implemented animations and SSR/SSG for enhanced UX and SEO optimization",
+    image: "/placeholder.svg",
+    technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Strapi", "Axios"],
+    githubLink: "https://earthscan.io/",
+  },
+  {
+    id: v4(),
+    title: "Hominis",
+    description:
+      "Developed a feature-rich AI playground supporting model selection, extended context handling, presets, and customizable interfaces to enhance user experience",
+    image: "/placeholder.svg",
+    technologies: [
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Zustand",
+      "API Proxy",
+    ],
+    githubLink: "https://hominis.io/",
+  },
+  {
+    id: v4(),
     title: "RoktoChai",
     description:
       "A blood donation platform connecting donors with recipients in emergency situations. Features real-time notifications, donor tracking, and appointment scheduling.",
     image: "/placeholder.svg",
-    technologies: ["React", "Node.js", "Express", "MongoDB"],
-    githubLink: "https://github.com/monirulislam",
+    technologies: ["React", "Node.js", "Express", "Prisma", "MongoDB"],
+    githubLink: "https://github.com/CodeMonkMI/roktochai",
   },
   {
-    id: 2,
+    id: v4(),
     title: "Department Orchestrator",
     description:
       "A comprehensive department management system for educational institutions, handling course allocations, faculty scheduling, and resource management.",
@@ -36,31 +93,6 @@ export const projects: Project[] = [
       "prexress framework",
     ],
     githubLink: "https://github.com/CodeMonkMI/department-orchestrator",
-  },
-  {
-    id: 3,
-    title: "prexress Framework",
-    description:
-      "A lightweight, modular framework built on Express.js, providing additional abstractions for rapid API development with standardized patterns.",
-    image: "/placeholder.svg",
-    technologies: ["Node.js", "Express", "TypeScript", "Prisma", "OPP"],
-    githubLink: "https://github.com/CodeMonkMI/prexress",
-  },
-  {
-    id: 4,
-    title: "Event Management",
-    description:
-      "A full-featured event management platform with ticketing, scheduling, attendee tracking, and analytics dashboards for event organizers.",
-    image: "/placeholder.svg",
-    technologies: [
-      "React",
-      "Redux",
-      "Ant Design UI",
-      "Express",
-      "JWT",
-      "Squelize",
-    ],
-    githubLink: "https://github.com/CodeMonkMI/react-event-creator",
   },
 ];
 
