@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio Grid Skeleton</title>
+  </head>
+  <body class="bg-slate-100 p-6">
+    <!-- Container -->
+    <main
+      class="mx-auto max-w-[1200px] grid grid-cols-1 md:grid-cols-12 md:auto-rows-[84px] gap-4"
+    >
+      <!-- Row 1: Navbar -->
+      <section
+        class="col-span-1 md:col-span-12 h-14 rounded-lg border border-dashed border-slate-400 bg-white/70 flex items-center px-4"
+      >
+        <span class="text-slate-700 font-medium">Navbar</span>
+      </section>
+
+      <!-- Row 2: About | Name+Designation | Work Exp -->
+      <section
+        class="col-span-1 md:col-span-4 rounded-lg border border-dashed border-slate-400 bg-white/70 flex items-center justify-center min-h-[84px]"
+      >
+        About
+      </section>
+
+      <section
+        class="col-span-1 md:col-span-4 rounded-lg border border-dashed border-slate-400 bg-white/70 flex items-center justify-center min-h-[84px]"
+      >
+        Name + Designation
+      </section>
+
+      <section
+        class="col-span-1 md:col-span-4 rounded-lg border border-dashed border-slate-400 bg-white/70 flex items-center justify-center min-h-[84px]"
+      >
+        Work Experience
+      </section>
+
+      <!-- Row 3: Left headline -->
+      <section
+        class="col-span-1 md:col-span-5 md:row-start-3 rounded-lg border border-dashed border-slate-400 bg-white/70 flex items-center justify-center min-h-[120px]"
+      >
+        Intro Headline (“Hello, I’m …”)
+      </section>
+
+      <!-- Rows 3–5: Center photo (spans rows) -->
+      <section
+        class="col-span-1 md:col-start-6 md:col-span-4 md:row-start-3 md:row-span-3 rounded-full border-2 border-slate-400 bg-white/70 flex items-center justify-center min-h-[280px]"
+      >
+        Photo
+      </section>
+
+      <!-- Row 4: Short description -->
+      <section
+        class="col-span-1 md:col-span-5 md:row-start-4 rounded-lg border border-dashed border-slate-400 bg-white/70 flex items-center justify-center min-h-[100px]"
+      >
+        Short Description
+      </section>
+
+      <!-- Row 5: CTA / Education -->
+      <section
+        class="col-span-1 md:col-span-5 md:row-start-5 rounded-lg border border-dashed border-slate-400 bg-white/70 flex items-center justify-center min-h-[84px]"
+      >
+        Buttons + Education
+      </section>
+
+      <!-- Row 5: Projects (right column) -->
+      <section
+        class="col-span-1 md:col-start-10 md:col-span-3 md:row-start-5 rounded-lg border border-dashed border-slate-400 bg-white/70 flex items-center justify-center min-h-[84px]"
+      >
+        Projects
+      </section>
+
+      <!-- Row 6: Social -->
+      <section
+        class="col-span-1 md:col-span-5 md:row-start-6 rounded-lg border border-dashed border-slate-400 bg-white/70 flex items-center justify-center min-h-[64px]"
+      >
+        Social Icons
+      </section>
+
+      <!-- Row 7: Bottom three blocks -->
+      <section
+        class="col-span-1 md:col-span-4 md:row-start-7 rounded-lg border border-dashed border-slate-400 bg-white/80 flex items-center justify-center min-h-[140px]"
+      >
+        Certificates
+      </section>
+
+      <section
+        class="col-span-1 md:col-start-5 md:col-span-4 md:row-start-7 rounded-lg border border-dashed border-slate-400 bg-white/80 flex items-center justify-center min-h-[140px]"
+      >
+        Achievements
+      </section>
+
+      <section
+        class="col-span-1 md:col-start-9 md:col-span-4 md:row-start-7 rounded-lg border border-dashed border-slate-400 bg-white/80 flex items-center justify-center min-h-[140px]"
+      >
+        Remember
+      </section>
+    </main>
+  </body>
+</html>
