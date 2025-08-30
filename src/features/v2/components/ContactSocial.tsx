@@ -42,6 +42,11 @@ const links = [
     icon: <Link size={24} />,
     label: "Dev.to",
   },
+  {
+    href: "https://www.youtube.com/@MonirulIslam-h1i",
+    icon: <Link size={24} />,
+    label: "Youtube",
+  },
 ];
 
 // 2. Contact Social
