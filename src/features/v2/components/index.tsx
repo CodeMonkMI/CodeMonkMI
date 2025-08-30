@@ -1,0 +1,13 @@
+export { AboutSection } from "./AboutSection";
+export { Achievements } from "./Achievements";
+export { Certifications } from "./Certifications";
+export { ContactSocial, ContactSocial2 } from "./ContactSocial";
+export { Education } from "./Education";
+export { ExtraCurricular } from "./ExtraCurricular";
+export { NameAndDesignations } from "./NameAndDesignations";
+export { Newsletter } from "./Newsletter";
+export { Photo } from "./Photo";
+export { Project } from "./Project";
+export { Quote } from "./Quote";
+export { Skills } from "./Skills";
+export { WorkExperience } from "./WorkExperience";

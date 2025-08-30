@@ -84,8 +84,8 @@ export const experiences: Experience[] = [
   {
     id: 1,
     company: "DK AI Labs",
-    position: "Software Developer - Fullstack",
-    period: "Feb 2025 - Present",
+    position: "Software Developer",
+    period: "Feb 2025 - Aug 2025",
     description:
       "Develop and Integrated robust and scalable applications with modern technologies like React NodeJs etc",
     achievements: [...DKAchievements],
@@ -93,7 +93,7 @@ export const experiences: Experience[] = [
   {
     id: 2,
     company: "All Generation Tech - AGT",
-    position: "Software Engineer - Frontend (React)",
+    position: "Software Engineer - ReactJs",
     period: "Dec 2024 - March 2025",
     description:
       "Developed and maintained multiple client projects using react and related technologies.",
@@ -106,7 +106,7 @@ export const experiences: Experience[] = [
   {
     id: 3,
     company: "DK AI Labs",
-    position: "Web Developer - Fullstack",
+    position: "Fullstack Web Developer",
     period: "Apr 2023 - Dec 2024",
     description:
       "Develop and Integrated robust and scalable web applications with modern technologies like React NodeJs etc",
@@ -125,7 +125,7 @@ export interface Education {
 export const education: Education[] = [
   {
     id: 1,
-    degree: "Diploma In Engineering in Computer Science",
+    degree: "Diploma In Engr. in Computer Science",
     institution: "Jashore Polytechnic Institute",
     period: "2022 - 2026",
     description: "Specialized in Software Engineering and Web Technologies",
@@ -194,13 +194,11 @@ export interface Skill {
 
 export const skills: Skill[] = [
   // Frontend
+  { id: v4(), name: "JavaScript", category: "Frontend", level: "Expert" },
+  { id: v4(), name: "TypeScript", category: "Frontend", level: "Expert" },
   { id: v4(), name: "React", category: "Frontend", level: "Expert" },
   { id: v4(), name: "Next.js", category: "Frontend", level: "Advanced" },
-  { id: v4(), name: "TypeScript", category: "Frontend", level: "Expert" },
-  { id: v4(), name: "JavaScript", category: "Frontend", level: "Expert" },
   { id: v4(), name: "Tailwind CSS", category: "Frontend", level: "Expert" },
-  { id: v4(), name: "Material UI", category: "Frontend", level: "Advanced" },
-  { id: v4(), name: "Ant Design", category: "Frontend", level: "Advanced" },
   {
     id: v4(),
     name: "React Hook Form",
@@ -209,8 +207,8 @@ export const skills: Skill[] = [
   },
   { id: v4(), name: "Zod", category: "Frontend", level: "Advanced" },
   { id: v4(), name: "Redux", category: "Frontend", level: "Expert" },
-  { id: v4(), name: "React Query", category: "Frontend", level: "Advanced" },
   { id: v4(), name: "Zustand", category: "Frontend", level: "Advanced" },
+  { id: v4(), name: "React Query", category: "Frontend", level: "Advanced" },
 
   // Backend
   { id: v4(), name: "Node.js", category: "Backend", level: "Advanced" },
@@ -242,10 +240,6 @@ export const skills: Skill[] = [
   },
 
   // Datv4()ase
-  { id: v4(), name: "MongoDB", category: "Database", level: "Advanced" },
-  { id: v4(), name: "PostgreSQL", category: "Database", level: "Intermediate" },
-  { id: v4(), name: "MySQL", category: "Database", level: "Intermediate" },
-  { id: v4(), name: "Firebase", category: "Database", level: "Intermediate" },
   {
     id: v4(),
     name: "Database Design",
@@ -258,25 +252,24 @@ export const skills: Skill[] = [
     category: "Database",
     level: "Intermediate",
   },
+  { id: v4(), name: "SQL", category: "Database", level: "Advanced" },
+  { id: v4(), name: "NoSQL", category: "Database", level: "Advanced" },
+  { id: v4(), name: "MongoDB", category: "Database", level: "Advanced" },
+  { id: v4(), name: "PostgreSQL", category: "Database", level: "Intermediate" },
+  { id: v4(), name: "MySQL", category: "Database", level: "Intermediate" },
+  { id: v4(), name: "Firebase", category: "Database", level: "Intermediate" },
 
   // Toov4()
   { id: v4(), name: "Git", category: "Tools", level: "Advanced" },
   { id: v4(), name: "Docker", category: "Tools", level: "Intermediate" },
   { id: v4(), name: "CI/CD", category: "Tools", level: "Intermediate" },
   { id: v4(), name: "VPS", category: "Tools", level: "Intermediate" },
-  { id: v4(), name: "Jest", category: "Tools", level: "Intermediate" },
-  { id: v4(), name: "Webpack", category: "Tools", level: "Intermediate" },
+
   { id: v4(), name: "Figma", category: "Tools", level: "Intermediate" },
   { id: v4(), name: "Microservices", category: "Tools", level: "Intermediate" },
   {
     id: v4(),
     name: "Event Driven Architecture",
-    category: "Tools",
-    level: "Intermediate",
-  },
-  {
-    id: v4(),
-    name: "Cloud",
     category: "Tools",
     level: "Intermediate",
   },
@@ -288,16 +281,16 @@ export const achievements = [
     id: 1,
     title: "Founded JPI Coder Club",
     description:
-      "Founded JPI Coders Club and crated programming community. Purpose of this is to help each others. Also organize Programming Contest",
+      "Founded JPI Coders Club and crated programming community. Purpose to help each others. Also organize Programming Contest",
     icon: "trophy",
     year: "2023",
   },
   {
     id: 2,
-    title: "Class Captain",
+    title: "JPI Computer Club",
     description:
-      "Main relations between 50+ students (classmates) and 10+ teachers. Also lead some valid protest to ensure student security and respect. ",
-    icon: "star",
-    year: "2022",
+      "Founding JPI Computer Club. Purpose of this is to help each others.",
+    icon: "trophy",
+    year: "2025",
   },
 ];
