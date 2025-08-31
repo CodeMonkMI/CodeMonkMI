@@ -2,7 +2,7 @@ import { experiences } from "@/data/projects";
 // 9. Work Experience
 export const WorkExperience = () => (
   <div className="w-full h-full overflow-hidden overflow-y-auto scrollbar-hide hover:scrollbar-hover">
-    <div className="pl-4 mb-3">
+    <div className="lg:pl-4 lg:mb-3 pr-2.5 lg:pr-0">
       <h4 className="text-xl mb-2">Work Experiences</h4>
       <div className="space-y-3">
         {experiences.map((experience, index) => (

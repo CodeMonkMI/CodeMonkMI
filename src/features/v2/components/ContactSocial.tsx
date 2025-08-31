@@ -51,10 +51,10 @@ const links = [
 
 // 2. Contact Social
 export const ContactSocial = () => (
-  <div className="w-full px-3 h-full flex justify-center items-center">
+  <div className="w-full lg:px-3 h-full flex lg:justify-center items-center">
     <div>
-      <h4 className="hidden text-xl mb-2 text-center">Links</h4>
-      <div className="space-y-2">
+      <h4 className="lg:hidden text-xl mb-2 text-left">Links</h4>
+      <div className="lg:space-y-2 gap-2 lg:gap-0 grid grid-cols-3 sm:grid-cols-5 md:grid-flow-col lg:grid-cols-1 lg:grid-flow-row">
         {links.map((link, index) => (
           <a
             key={index}

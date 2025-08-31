@@ -19,10 +19,10 @@ export const Achievements = () => {
   };
   return (
     <div className="w-full h-full overflow-hidden scrollbar-hide scrollbar-hover">
-      <div className="mb-3 mt-2">
-        <h2 className="text-xl mb-2 hidden">Achievements</h2>
+      <div className="mb-3 mt-2 pr-2.5 lg:pr-0">
+        <h2 className="text-xl mb-2 lg:hidden mt-3 lg:mt-0">Achievements</h2>
 
-        <div className="gap-x-2 grid grid-cols-2">
+        <div className="gap-y-2 sm:gap-x-2 grid sm:grid-cols-2 lg:grid-cols-2">
           {achievements.slice(0, 2).map((achievement) => (
             <Card
               key={achievement.id}

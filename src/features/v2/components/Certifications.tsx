@@ -6,7 +6,7 @@ export const Certifications = () => {
   const openLinks = () => {};
   return (
     <div className="w-full h-full overflow-hidden overflow-y-auto scrollbar-hide scrollbar-hover">
-      <div className="pl-4 mb-3">
+      <div className="lg:pl-4 lg:mb-3 pr-2.5 lg:pr-0">
         <h2 className="text-xl mb-2">Certifications</h2>
 
         <div className="space-y-2">
