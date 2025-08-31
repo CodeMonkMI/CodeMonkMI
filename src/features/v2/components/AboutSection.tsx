@@ -1,6 +1,6 @@
 // 1. About Section
 export const AboutSection = () => (
-  <div className="w-full flex justify-center items-center h-full">
+  <div className="w-full flex justify-center items-center h-full overflow-y-auto scrollbar-hide scrollbar-hover pt-4 xl:pt-0">
     <div className="">
       <h2 className="text-xl mb-1">About me</h2>
       <p className="text-sm">
