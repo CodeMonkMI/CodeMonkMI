@@ -114,6 +114,15 @@ const DKAchievements = [
 
 export const experiences: Experience[] = [
   {
+    id: 4,
+    company: "PINN AI",
+    position: "Frontend Developer",
+    period: "September 2025 - Nov 2025",
+    description:
+      "Develop and Integrated robust and scalable applications with modern technologies like React NodeJs etc",
+    achievements: [],
+  },
+  {
     id: 1,
     company: "DK AI Labs",
     position: "Software Developer",
@@ -321,7 +330,7 @@ export const achievements = [
     id: 2,
     title: "JPI Computer Club",
     description:
-      "Founding JPI Computer Club. Purpose of this is to help each others.",
+      "Founding member of Computer Club of Jashore Polytechnic Institute. Also co-written the constitution of this organization.",
     icon: "trophy",
     year: "2025",
   },

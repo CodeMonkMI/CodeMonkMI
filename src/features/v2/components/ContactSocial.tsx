@@ -13,12 +13,12 @@ interface SocialLinksProps {
 
 const links = [
   {
-    href: "https://github.com/codemonkmi",
+    href: "https://github.com/mislam-dev",
     icon: <Github size={24} />,
     label: "Github",
   },
   {
-    href: "https://linkedin.com/in/codemonkmi",
+    href: "https://linkedin.com/in/mislam-dev",
     icon: <Linkedin size={24} />,
     label: "LinkedIn",
   },
@@ -28,7 +28,7 @@ const links = [
     label: "Email",
   },
   {
-    href: "https://leetcode.com/u/codemonkmi",
+    href: "https://leetcode.com/u/mislamdev",
     icon: <Link size={24} />,
     label: "LeetCode",
   },
@@ -38,12 +38,12 @@ const links = [
     label: "HackerRank",
   },
   {
-    href: "https://dev.to/codemonkmi",
+    href: "https://dev.to/mislam-dev",
     icon: <Link size={24} />,
     label: "Dev.to",
   },
   {
-    href: "https://www.youtube.com/@MonirulIslam-h1i",
+    href: "https://www.youtube.com/@mislam-dev",
     icon: <Link size={24} />,
     label: "Youtube",
   },
