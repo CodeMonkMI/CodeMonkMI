@@ -7,6 +7,10 @@ export interface Project {
   technologies: string[];
   githubLink?: string;
   demoLink?: string;
+  links: {
+    label: string;
+    value: string;
+  }[];
 }
 
 export const projects: Project[] = [
@@ -17,7 +21,21 @@ export const projects: Project[] = [
       "A lightweight, modular framework built on Express.js, providing additional abstractions for rapid API development with standardized patterns.",
     image: "/placeholder.svg",
     technologies: ["Node.js", "Express", "TypeScript", "Prisma", "OPP"],
-    githubLink: "https://github.com/CodeMonkMI/prexress",
+    githubLink: "https://github.com/mislam-dev/prexress",
+    links: [
+      {
+        label: "Source Code",
+        value: "https://github.com/mislam-dev/prexress",
+      },
+      {
+        label: "CLI",
+        value: "https://github.com/mislam-dev/prexress",
+      },
+      {
+        label: "CLI",
+        value: "https://github.com/mislam-dev/prexress",
+      },
+    ],
   },
   {
     id: v4(),
@@ -26,7 +44,8 @@ export const projects: Project[] = [
       "An enterprise level typeScript application built with Turborepo, featuring a clean architecture pattern and domain-driven design.",
     image: "/placeholder.svg",
     technologies: ["React", "ExpressJs", "Drizzle", "Domain Driven Design"],
-    githubLink: "https://github.com/CodeMonkMI/todo-app-enterprise",
+    githubLink: "https://github.com/mislam-dev/todo-app-enterprise",
+    links: [],
   },
   {
     id: v4(),
@@ -42,6 +61,7 @@ export const projects: Project[] = [
       "Firebase",
     ],
     githubLink: "https://www.realai.eu/",
+    links: [],
   },
   {
     id: v4(),
@@ -51,22 +71,9 @@ export const projects: Project[] = [
     image: "/placeholder.svg",
     technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Strapi", "Axios"],
     githubLink: "https://earthscan.io/",
+    links: [],
   },
-  {
-    id: v4(),
-    title: "Hominis",
-    description:
-      "Developed a feature-rich AI playground supporting model selection, extended context handling, presets, and customizable interfaces to enhance user experience",
-    image: "/placeholder.svg",
-    technologies: [
-      "TypeScript",
-      "Next.js",
-      "Tailwind CSS",
-      "Zustand",
-      "API Proxy",
-    ],
-    githubLink: "https://hominis.io/",
-  },
+
   {
     id: v4(),
     title: "RoktoChai",
@@ -74,7 +81,8 @@ export const projects: Project[] = [
       "A blood donation platform connecting donors with recipients in emergency situations. Features real-time notifications, donor tracking, and appointment scheduling.",
     image: "/placeholder.svg",
     technologies: ["React", "Node.js", "Express", "Prisma", "MongoDB"],
-    githubLink: "https://github.com/CodeMonkMI/roktochai",
+    githubLink: "https://github.com/mislam-dev/roktochai",
+    links: [],
   },
   {
     id: v4(),
@@ -92,7 +100,8 @@ export const projects: Project[] = [
       "Docker",
       "prexress framework",
     ],
-    githubLink: "https://github.com/CodeMonkMI/department-orchestrator",
+    githubLink: "https://github.com/mislam-dev/department-orchestrator",
+    links: [],
   },
 ];
 

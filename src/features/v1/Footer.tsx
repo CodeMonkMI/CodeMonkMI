@@ -16,7 +16,7 @@ const Footer = () => {
 
           <div className="flex space-x-6 mb-4 md:mb-0">
             <a
-              href="https://github.com/codemonkmi"
+              href="https://github.com/mislam-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/80 hover:text-primary transition-colors duration-200"
@@ -24,7 +24,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/codemonkmi"
+              href="https://linkedin.com/in/mislam-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/80 hover:text-primary transition-colors duration-200"

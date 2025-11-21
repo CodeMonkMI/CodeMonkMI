@@ -1,5 +1,4 @@
 import { projects } from "@/data/projects";
-import { ExternalLink, Github } from "lucide-react";
 import { Badge } from "../../components/ui/badge";
 
 const ProjectsSection = () => {
@@ -35,29 +34,19 @@ const ProjectsSection = () => {
                 </div>
 
                 <div className="flex space-x-4">
-                  {project.githubLink && (
-                    <a
-                      href={project.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center text-foreground/80 hover:text-primary transition-colors"
-                    >
-                      <Github className="w-5 h-5 mr-1" />
-                      <span>Code</span>
-                    </a>
-                  )}
-
-                  {project.demoLink && (
-                    <a
-                      href={project.demoLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center text-foreground/80 hover:text-primary transition-colors"
-                    >
-                      <ExternalLink className="w-5 h-5 mr-1" />
-                      <span>Demo</span>
-                    </a>
-                  )}
+                  {project.links.map((linkItem, idx) => (
+                    <>
+                      <a
+                        href={linkItem.value}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex  items-center text-primary transition-colors"
+                      >
+                        <span>{linkItem.label}</span>
+                      </a>
+                      {idx < project.links.length - 1 && <span>|</span>}
+                    </>
+                  ))}
                 </div>
               </div>
             </div>

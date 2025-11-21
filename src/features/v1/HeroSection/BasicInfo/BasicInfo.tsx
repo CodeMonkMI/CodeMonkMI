@@ -53,7 +53,7 @@ export const BasicInfo = () => {
         style={{ animationDelay: "1.2s" }}
       >
         <a
-          href="https://github.com/codemonkmi"
+          href="https://github.com/mislam-dev"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground/80 hover:text-primary transition-colors duration-200"
@@ -61,7 +61,7 @@ export const BasicInfo = () => {
           <Github size={24} />
         </a>
         <a
-          href="https://linkedin.com/in/codemonkmi"
+          href="https://linkedin.com/in/mislam-dev"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground/80 hover:text-primary transition-colors duration-200"
